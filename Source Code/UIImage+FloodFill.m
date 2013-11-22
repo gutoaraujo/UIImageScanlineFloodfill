@@ -351,7 +351,7 @@
             
             if (y<height)
             {
-                byteIndex = (bytesPerRow * (y+1)) + x * bytesPerPixel;
+                byteIndex = (bytesPerRow * y + x * bytesPerPixel;
                 color = getColorCode(byteIndex, imageData);
                 
                 if (!compareColor(ncolor, color, 0))
